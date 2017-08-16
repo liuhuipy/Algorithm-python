@@ -4,6 +4,37 @@
 __author__ = 'liuhui'
 
 
+# Time:  O(m * n)
+# Space: O(m * n)
+
+# Given a matrix consists of 0 and 1, find the distance of the nearest 0 for each cell.
+# The distance between two adjacent cells is 1.
+#
+# Example 1:
+#
+# Input:
+# 0 0 0
+# 0 1 0
+# 0 0 0
+#
+# Output:
+# 0 0 0
+# 0 1 0
+# 0 0 0
+#
+# Example 2:
+#
+# Input:
+# 0 0 0
+# 0 1 0
+# 1 1 1
+#
+# Output:
+# 0 0 0
+# 0 1 0
+# 1 2 1
+
+
 class Solution(object):
 
     def updateMatrix(self, matrix):
@@ -26,8 +57,10 @@ class Solution(object):
             cell = queue.popleft()
             for dir in dirs:
                 i, j = cell[0] + dir[0], cell[1] + dir[1]
+                #print(matrix[cell[0]][cell[1]])
                 if not (0 <= i < len(matrix)) or not (0 <= j < len(matrix[0])) or matrix[i][j] <= matrix[cell[0]][cell[1]]+1:
                     continue
+                #print((i,j))
                 queue.append((i, j))
                 matrix[i][j] = matrix[cell[0]][cell[1]] + 1
 
@@ -35,19 +68,10 @@ class Solution(object):
 
 if __name__ == "__main__":
     list1 = [
-        [0,0,0,0],
-        [0,1,0,1],
-        [1,1,1,1],
-        [1,0,1,1],
-        [0,1,1,1]
+        [0,0,0],
+        [0,1,0],
+        [1,1,1],
     ]
     solut = Solution()
     list2 = solut.updateMatrix(list1)
     print(list2)
-    import collections
-    queue = collections.deque([])
-    queue.append((0,1))
-    queue.append((1,0))
-    cell1 = queue.popleft()
-    cell2 = queue.popleft()
-    print(cell1[0],cell2[1])
