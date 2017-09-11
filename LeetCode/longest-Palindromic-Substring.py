@@ -68,6 +68,7 @@ class Solution2(object):
 
 if __name__ == '__main__':
     s = 'babad'
+    s1 = 'abcbe'
     solut = Solution()
     res = solut.longestPalindrome(s)
     print(res)
