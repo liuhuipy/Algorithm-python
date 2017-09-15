@@ -14,12 +14,9 @@ class Solution:
         for i in range(1, len(listA)):
             midNum = listA[i]
             j = i - 1
-            while j >= 0:
-                if listA[j] > midNum:
-                    listA[j+1], listA[j] = listA[j], midNum
-                    j -= 1
-                else:
-                    break
+            while j >= 0 and listA[j] > midNum:
+                listA[j+1], listA[j] = listA[j], midNum
+                j -= 1
         return listA
 
 
