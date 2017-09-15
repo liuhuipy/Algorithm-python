@@ -27,7 +27,6 @@ class Solution(object):
                 nums[temp - 1] = temp
             else:
                 i += 1
-            print(nums)
         for i, v in enumerate(nums):
             if v != i + 1:
                 return i + 1
