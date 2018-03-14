@@ -38,43 +38,7 @@ class Solution:
         return uglyNumbers[-1]
 
 
-    #时间复杂度较高
-    '''
-    def GetUglyNumber_Solution(self, index):
-        # write code here
-        if index <= 0:
-            return 0
-        if index == 1:
-            return 1
-        self.uglyNumberList = []
-        num = 1
-        i = 1
-        while num <= index-1:
-            i += 1
-            if self.isUglyNumber(i):
-                self.uglyNumberList.append(i)
-                num += 1
-        return i
-
-    def isUglyNumber(self, number):
-        if number == 2 or number == 3 or number == 5:
-            return True
-        if number in self.uglyNumberList:
-            return True
-        if number % 2 == 0:
-            res = self.isUglyNumber(number // 2)
-        elif number % 3 == 0:
-            res = self.isUglyNumber(number // 3)
-        elif number % 5 == 0:
-            res = self.isUglyNumber(number // 5)
-        else:
-            return False
-        return res
-    '''
-
-
 if __name__ == '__main__':
     solut = Solution()
     resNum = solut.GetUglyNumber_Solution(16)
     print(resNum)
-

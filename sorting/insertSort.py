@@ -10,12 +10,12 @@ __author__ = 'liuhui'
 
 class Solution:
 
-    def insertSort(self, listA):
-        for i in range(1, len(listA)):
-            midNum = listA[i]
+    def insert_sort(self, lista):
+        for i in range(1, len(lista)):
+            mid_num = lista[i]
             j = i - 1
-            while j >= 0 and listA[j] > midNum:
-                listA[j+1], listA[j] = listA[j], midNum
+            while j >= 0 and listA[j] > mid_num:
+                listA[j+1], listA[j] = listA[j], mid_num
                 j -= 1
         return listA
 
@@ -23,7 +23,7 @@ class Solution:
 if __name__ == '__main__':
     listA = [3, 1, 5, 8, 6, 7, 4, 2, 10, 9]
     solut = Solution()
-    newListA = solut.insertSort(listA)
+    newListA = solut.insert_sort(listA)
     print(newListA)
 
 
