@@ -45,6 +45,7 @@ class Solution(object):
                     r -= 1
         return resList
 
+
 if __name__ == '__main__':
     nums = [-1, 0, 1, 2, -1, -4]
     num1 = [0, 0, 0]
