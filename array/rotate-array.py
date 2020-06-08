@@ -10,7 +10,16 @@
 
 
 class Solution:
+
     def rotate(self, nums: list, k: int) -> None:
+        pass
+
+    def rotate1(self, nums: list, k: int) -> None:
+        """
+        暴力求解：
+            时间复杂度：O(n * k)
+            空间复杂度：O(1)
+        """
         if not nums:
             return
         len_nums = len(nums)
