@@ -15,7 +15,7 @@
 class Solution:
     def moveZeroes(self, nums: list) -> None:
         """
-        Do not return anything, modify nums in-place instead.
+        使用慢指针记录有多少个非零元素，将非零元素左移，再遍历剩余是零个数的位置赋值为0
         """
         init_index, len_nums = 0, len(nums)
         for i in range(len_nums):
