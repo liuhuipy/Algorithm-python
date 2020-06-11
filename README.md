@@ -5,3 +5,6 @@
 * [旋转数组](array/rotate-array.py)
 * [移动零](array/move-zeroes.py)
 * [加一](array/plus-one.py)
+
+## 树
+* [重建二叉树](binary_tree/build-binary-tree.py)
