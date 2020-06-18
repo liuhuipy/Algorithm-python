@@ -6,6 +6,7 @@
 * [移动零](array/move-zeroes.py)
 * [加一](array/plus-one.py)
 * [相交链表](array/intersection-of-two-linked-lists.py)
+* [链表反转](array/reverse-linked-list.py)
 * [删除排序链表中的重复元素](array/remove-duplicates-from-sorted-list.py)
 
 ## 树
