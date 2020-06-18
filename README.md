@@ -10,6 +10,7 @@
 * [合并两个有序链表](array/merge-two-sorted-lists.py)
 * [删除排序链表中的重复元素](array/remove-duplicates-from-sorted-list.py)
 * [删除链表的倒数第N个节点](array/remove-nth-node-from-end-of-list.py)
+* [两两交换链表中的节点](array/swap-nodes-in-pairs.py)
 
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
