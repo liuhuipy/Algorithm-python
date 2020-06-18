@@ -9,6 +9,7 @@
 * [链表反转](array/reverse-linked-list.py)
 * [合并两个有序链表](array/merge-two-sorted-lists.py)
 * [删除排序链表中的重复元素](array/remove-duplicates-from-sorted-list.py)
+* [删除链表的倒数第N个节点](array/remove-nth-node-from-end-of-list.py)
 
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
