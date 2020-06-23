@@ -13,6 +13,7 @@
 * [两两交换链表中的节点](array/swap-nodes-in-pairs.py)
 * [两数相加](array/add-two-numbers-ii.py)
 * [回文链表](array/palindrome-linked-list.py)
+* [分隔链表](array/split-linked-list-in-parts.py)
 
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
