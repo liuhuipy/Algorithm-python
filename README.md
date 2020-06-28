@@ -18,6 +18,7 @@
 
 ## 哈希表
 * [两数之和](hashmap/two-sum.py)
+* [存在重复元素](hashmap/contains-duplicate.py)
 
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
