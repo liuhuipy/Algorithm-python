@@ -14,6 +14,10 @@
 * [两数相加](array/add-two-numbers-ii.py)
 * [回文链表](array/palindrome-linked-list.py)
 * [分隔链表](array/split-linked-list-in-parts.py)
+* [链表元素按奇偶聚集](array/odd-even-linked-list.py)
+
+## 哈希表
+* [两数之和](hashmap/two-sum.py)
 
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
