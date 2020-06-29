@@ -27,6 +27,7 @@
 * [用队列实现栈](stack_queue/implement-stack-using-queues.py)(LeetCode 225)
 * [最小栈](stack_queue/min-stack.py)(LeetCode 155)
 * [有效的括号](stack_queue/valid-parentheses.py)(LeetCode 22)
+* [每日温度](stack_queue/daily-temperatures.py)(LeetCode 739)
 
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
