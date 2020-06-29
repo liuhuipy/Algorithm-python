@@ -24,6 +24,7 @@
 
 ## 栈和队列
 * [用栈实现队列](stack_queue/implement-queue-using-stacks.py)
+* [用队列实现栈](stack_queue/implement-stack-using-queues.py)
 
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
