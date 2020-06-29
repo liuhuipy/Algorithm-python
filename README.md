@@ -28,6 +28,7 @@
 * [最小栈](stack_queue/min-stack.py)(LeetCode 155)
 * [有效的括号](stack_queue/valid-parentheses.py)(LeetCode 22)
 * [每日温度](stack_queue/daily-temperatures.py)(LeetCode 739)
+* [下一个更大元素II](stack_queue/next-greater-element-ii.py)(LeetCode 503)
 
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
