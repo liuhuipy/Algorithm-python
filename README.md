@@ -22,5 +22,8 @@
 * [存在重复元素](hashmap/contains-duplicate.py)
 * [最长连续序列](hashmap/longest-consecutive-sequence.py)
 
+## 栈和队列
+* [用栈实现队列](stack_queue/implement-queue-using-stacks.py)
+
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
