@@ -8,6 +8,7 @@
 * [最大连续1的个数](array/max-consecutive-ones.py)(LeetCode 485)
 * [搜索二维矩阵II](array/search-a-2d-matrix-ii.py)(LeetCode 240)
 * [错误的集合](array/set-mismatch.py)(LeetCode 645)
+* [数组的度](array/degree-of-an-array.py)(LeetCode 697)
 * [加一](array/plus-one.py)
 * [相交链表](array/intersection-of-two-linked-lists.py)(LeetCode 160)
 * [链表反转](array/reverse-linked-list.py)(LeetCode 206)
