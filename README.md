@@ -9,6 +9,7 @@
 * [搜索二维矩阵II](array/search-a-2d-matrix-ii.py)(LeetCode 240)
 * [错误的集合](array/set-mismatch.py)(LeetCode 645)
 * [数组的度](array/degree-of-an-array.py)(LeetCode 697)
+* [有序矩阵中第K小的元素](array/kth-smallest-element-in-a-sorted-matrix.py)(LeetCode 378)
 * [加一](array/plus-one.py)
 * [相交链表](array/intersection-of-two-linked-lists.py)(LeetCode 160)
 * [链表反转](array/reverse-linked-list.py)(LeetCode 206)
