@@ -17,12 +17,24 @@
 方法1：
     二分查找。
     时间复杂度为O(nlogn)，空间复杂度为O(1)。
+方法2：
+    快慢指针。
+    时间复杂度为O(n)，空间复杂度为O(1)。
 """
 from typing import List
 
 
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
+        slow, fast = 0, nums[0]
+        while nums[slow] != nums[fast]:
+            slow, fast = nums[slow], nums[nums[fast]]
+        start, end = 0, nums[slow]
+        while nums[start] != nums[end]:
+            start, end = nums[start], nums[end]
+        return nums[start]
+
+    def findDuplicate1(self, nums: List[int]) -> int:
         len_nums = len(nums)
         left, right, mid = 1, len_nums - 1, 0
         while left < right:
