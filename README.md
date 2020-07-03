@@ -47,4 +47,4 @@
 * [同构字符串](string/isomorphic-strings.py)(LeetCode 205)
 
 ## 树
-* [重建二叉树](binary_tree/build-binary-tree.py)
+* [重建二叉树](tree/build-binary-tree.py)
