@@ -41,5 +41,8 @@
 * [每日温度](stack_queue/daily-temperatures.py)(LeetCode 739)
 * [下一个更大元素II](stack_queue/next-greater-element-ii.py)(LeetCode 503)
 
+## 字符串
+* [有效的字母异位词](string/valid-anagram.py)(LeetCode 242)
+
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
