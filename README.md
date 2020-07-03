@@ -13,6 +13,7 @@
 * [有序矩阵中第K小的元素](array/kth-smallest-element-in-a-sorted-matrix.py)(LeetCode 378)
 * [优美的排列II](array/beautiful-arrangement-ii.py)(LeetCode 667)
 * [托普利茨矩阵](array/toeplitz-matrix.py)(LeetCode 766)
+* [数组嵌套](array/array-nesting.py)(LeetCode 565)
 * [加一](array/plus-one.py)
 * [相交链表](array/intersection-of-two-linked-lists.py)(LeetCode 160)
 * [链表反转](array/reverse-linked-list.py)(LeetCode 206)
