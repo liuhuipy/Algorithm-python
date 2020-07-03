@@ -14,6 +14,7 @@
 * [优美的排列II](array/beautiful-arrangement-ii.py)(LeetCode 667)
 * [托普利茨矩阵](array/toeplitz-matrix.py)(LeetCode 766)
 * [数组嵌套](array/array-nesting.py)(LeetCode 565)
+* [最多能完成排序的块](array/max-chunks-to-make-sorted.py)(LeetCode 769)
 * [加一](array/plus-one.py)
 * [相交链表](array/intersection-of-two-linked-lists.py)(LeetCode 160)
 * [链表反转](array/reverse-linked-list.py)(LeetCode 206)
