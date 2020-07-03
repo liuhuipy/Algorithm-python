@@ -44,6 +44,7 @@
 ## 字符串
 * [有效的字母异位词](string/valid-anagram.py)(LeetCode 242)
 * [最长回文串](string/longest-palindrome.py)(LeetCode 409)
+* [同构字符串](string/isomorphic-strings.py)(LeetCode 205)
 
 ## 树
 * [重建二叉树](binary_tree/build-binary-tree.py)
