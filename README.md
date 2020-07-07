@@ -52,4 +52,5 @@
 ## 树
 * [二叉树的最大深度](tree/maximum-depth-of-binary-tree.py)(LeetCode 104)
 * [重建二叉树](tree/build-binary-tree.py)
-* [平衡二叉树](tree/balanced-binary-tree.py)(LeetCode 110)
+* [平衡二叉树](tree/balanced-binary-tree.py)(LeetCode 110
+* [二叉树的直径](tree/diameter-of-binary-tree.py)(LeetCode 543)
