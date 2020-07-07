@@ -54,3 +54,4 @@
 * [重建二叉树](tree/build-binary-tree.py)
 * [平衡二叉树](tree/balanced-binary-tree.py)(LeetCode 110
 * [二叉树的直径](tree/diameter-of-binary-tree.py)(LeetCode 543)
+* [翻转二叉树](tree/invert-binary-tree.py)(LeetCode 226)
