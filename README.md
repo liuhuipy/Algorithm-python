@@ -46,6 +46,7 @@
 * [最长回文串](string/longest-palindrome.py)(LeetCode 409)
 * [同构字符串](string/isomorphic-strings.py)(LeetCode 205)
 * [回文数](string/palindrome-number.py)(LeetCode 9)
+* [回文子串](string/palindromic-substrings.py)(LeetCode 647)
 
 ## 树
 * [二叉树的最大深度](tree/maximum-depth-of-binary-tree.py)(LeetCode 104)
