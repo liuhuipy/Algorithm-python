@@ -45,6 +45,7 @@
 * [有效的字母异位词](string/valid-anagram.py)(LeetCode 242)
 * [最长回文串](string/longest-palindrome.py)(LeetCode 409)
 * [同构字符串](string/isomorphic-strings.py)(LeetCode 205)
+* [回文数](string/palindrome-number.py)(LeetCode 9)
 
 ## 树
 * [二叉树的最大深度](tree/maximum-depth-of-binary-tree.py)(LeetCode 104)
