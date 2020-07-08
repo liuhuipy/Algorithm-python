@@ -17,7 +17,10 @@
   2   2
    \   \
    3    3
-
+方法1：
+    迭代。使用队列每次插入左右节点对称位置的节点，然后判断。
+方法2：
+    递归。
 """
 
 
@@ -30,6 +33,23 @@ class TreeNode:
 
 
 class Solution:
+    def isSymmetric1(self, root: TreeNode) -> bool:
+        if not root or not (root.left or root.right):
+            return True
+        queue = [root.left, root.right]
+        while queue:
+            right = queue.pop()
+            left = queue.pop()
+            if left is None and right is None:
+                continue
+            if not (left and right) or left.val != right.val:
+                return False
+            queue.append(left.right)
+            queue.append(right.left)
+            queue.append(left.left)
+            queue.append(right.right)
+        return True
+
     def isSymmetric(self, root: TreeNode) -> bool:
         if not root:
             return True
