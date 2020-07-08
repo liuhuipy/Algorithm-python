@@ -61,3 +61,4 @@
 * [另一个树的子树](tree/subtree-of-another-tree.py)(LeetCode 572)
 * [对称二叉树](tree/symmetric-tree.py)(LeetCode 101)
 * [二叉树的最小深度](tree/minimum-depth-of-binary-tree.py)(LeetCode 111)
+* [左叶子之和](tree/sum-of-left-leaves.py)(LeetCode 404)
