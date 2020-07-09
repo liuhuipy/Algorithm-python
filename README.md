@@ -65,6 +65,7 @@
 * [最长同值路径](tree/longest-univalue-path.py)(LeetCode 687)
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
 * [二叉树中第二小的节点](tree/second-minimum-node-in-a-binary-tree.py)(LeetCode 671)
+* [二叉树的层平均值](tree/average-of-levels-in-binary-tree.py)(LeetCode 637)
 
 
 ## 动态规划
