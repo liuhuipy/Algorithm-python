@@ -69,6 +69,7 @@
 * [找树左下角的值](tree/find-bottom-left-tree-value.py)(LeetCode 513)
 * [非递归实现二叉树的前序遍历](tree/binary-tree-preorder-traversal.py)(LeetCode 144)
 * [二叉树的中序遍历](tree/binary-tree-inorder-traversal.py)(LeetCode 94)
+* [二叉树的后序遍历](tree/binary-tree-postorder-traversal.py)(LeetCode 145)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
