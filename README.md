@@ -68,6 +68,7 @@
 * [二叉树的层平均值](tree/average-of-levels-in-binary-tree.py)(LeetCode 637)
 * [找树左下角的值](tree/find-bottom-left-tree-value.py)(LeetCode 513)
 * [非递归实现二叉树的前序遍历](tree/binary-tree-preorder-traversal.py)(LeetCode 144)
+* [二叉树的中序遍历](tree/binary-tree-inorder-traversal.py)(LeetCode 94)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
