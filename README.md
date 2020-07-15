@@ -74,6 +74,7 @@
 * [二叉搜索树中第k小的元素](tree/kth-smallest-element-in-a-bst.py)(LeetCode 230)
 * [把二叉搜索树转换为累加树](tree/convert-bst-to-greater-tree.py)(LeetCode 538)
 * [二叉搜索树的最近公共祖先](tree/lowest-common-ancestor-of-a-binary-search-tree.py)(LeetCode 235)
+* [二叉树的最近公共祖先](tree/lowest-common-ancestor-of-a-binary-tree.py)(LeetCode 236)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
