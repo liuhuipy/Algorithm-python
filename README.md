@@ -71,6 +71,7 @@
 * [二叉树的中序遍历](tree/binary-tree-inorder-traversal.py)(LeetCode 94)
 * [二叉树的后序遍历](tree/binary-tree-postorder-traversal.py)(LeetCode 145)
 * [修剪二叉搜索树](tree/trim-a-binary-search-tree.py)(LeetCode 669)
+* [二叉搜索树中第k小的元素](tree/kth-smallest-element-in-a-bst.py)(LeetCode 230)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
