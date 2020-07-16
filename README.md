@@ -77,6 +77,7 @@
 * [二叉树的最近公共祖先](tree/lowest-common-ancestor-of-a-binary-tree.py)(LeetCode 236)
 * [将有序数组转换为二叉搜索树](tree/convert-sorted-array-to-binary-search-tree.py)(LeetCode 108)
 * [有序链表转换二叉搜索树](tree/convert-sorted-list-to-binary-search-tree.py)(LeetCode 109)
+* [二叉搜索树的最小绝对差](tree/minimum-absolute-difference-in-bst.py)(LeetCode 530)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
