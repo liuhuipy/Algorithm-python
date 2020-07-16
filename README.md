@@ -79,6 +79,7 @@
 * [有序链表转换二叉搜索树](tree/convert-sorted-list-to-binary-search-tree.py)(LeetCode 109)
 * [二叉搜索树的最小绝对差](tree/minimum-absolute-difference-in-bst.py)(LeetCode 530)
 * [两数之和IV-输入BST](tree/two-sum-iv-input-is-a-bst.py)(LeetCode 653)
+* [二叉搜索树中的众树](tree/find-mode-in-binary-search-tree.py)(LeetCode 501)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
