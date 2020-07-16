@@ -32,16 +32,30 @@ class TreeNode:
 
 
 class Solution:
-    def getMinimumDifference1(self, root: TreeNode) -> int:
+    def getMinimumDifference(self, root: TreeNode) -> int:
         self.res = float("inf")
+        self.temp = float("-inf")
         self.helper(root)
         return self.res
 
-    def helper(self, node: TreeNode) -> (any, any):
+    def helper(self, node: TreeNode):
+        if not node:
+            return
+        self.helper(node.left)
+        self.res = min(self.res, node.val - self.temp)
+        self.temp = node.val
+        self.helper(node.right)
+
+    def getMinimumDifference1(self, root: TreeNode) -> int:
+        self.res = float("inf")
+        self.helper1(root)
+        return self.res
+
+    def helper1(self, node: TreeNode) -> (any, any):
         if not node:
             return None, None
-        temp_left_min, temp_left_max = self.helper(node.left)
-        temp_right_min, temp_right_max = self.helper(node.right)
+        temp_left_min, temp_left_max = self.helper1(node.left)
+        temp_right_min, temp_right_max = self.helper1(node.right)
         if temp_left_max is not None:
             self.res = min(self.res, node.val - temp_left_max)
         if temp_right_min is not None:
