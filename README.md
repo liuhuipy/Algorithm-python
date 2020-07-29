@@ -83,5 +83,8 @@
 * [实现Trie（前缀树](tree/implement-trie-prefix-tree.py)(LeetCode 208)
 * [键值映射](tree/map-sum-pairs.py)(LeetCode 677)
 
+## 双指针
+* [两数之和II-输入有序数组](double_pointer/two-sum-ii-input-array-is-sorted.py)(Leetcode 167)
+
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
