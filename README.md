@@ -81,6 +81,7 @@
 * [两数之和IV-输入BST](tree/two-sum-iv-input-is-a-bst.py)(LeetCode 653)
 * [二叉搜索树中的众树](tree/find-mode-in-binary-search-tree.py)(LeetCode 501)
 * [实现Trie（前缀树](tree/implement-trie-prefix-tree.py)(LeetCode 208)
+* [键值映射](tree/map-sum-pairs.py)(LeetCode 677)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
