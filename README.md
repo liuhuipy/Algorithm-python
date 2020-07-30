@@ -86,6 +86,7 @@
 ## 双指针
 * [两数之和II-输入有序数组](double_pointer/two-sum-ii-input-array-is-sorted.py)(Leetcode 167)
 * [平方数之和](double_pointer/sum-of-square-numbers.py)(LeetCode 633)
+* [反转字符串中的元音字母](double_pointer/reverse-vowels-of-a-string.py)(LeetCode 345)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
