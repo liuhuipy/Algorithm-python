@@ -89,6 +89,7 @@
 * [反转字符串中的元音字母](double_pointer/reverse-vowels-of-a-string.py)(LeetCode 345)
 * [验证回文字符串 Ⅱ](double_pointer/valid-palindrome-ii.py)(LeetCode 680)
 * [合并两个有序数组](double_pointer/merge-sorted-array.py)(LeetCode 88)
+* [环形链表](double_pointer/linked-list-cycle.py)(LeetCode 141)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
