@@ -92,5 +92,8 @@
 * [环形链表](double_pointer/linked-list-cycle.py)(LeetCode 141)
 * [通过删除字母匹配到字典里最长单词](double_pointer/longest-word-in-dictionary-through-deleting.py)(LeetCode 524)
 
+## 排序
+* [数组中的第K个最大元素](sorting/kth-largest-element-in-an-array.py)(LeetCode 215)
+
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
