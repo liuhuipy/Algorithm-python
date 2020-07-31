@@ -102,5 +102,8 @@
 * [数组中的第K个最大元素](sorting/kth-largest-element-in-an-array.py)(LeetCode 215)
 * TODO
 
+## 贪心
+* [分发饼干](greedy/assign-cookies.py)(LeetCode 455)
+
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
