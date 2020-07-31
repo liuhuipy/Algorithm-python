@@ -104,6 +104,7 @@
 
 ## 贪心
 * [分发饼干](greedy/assign-cookies.py)(LeetCode 455)
+* [无重叠区间](greedy/non-overlapping-intervals.py)(LeetCode 435)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
