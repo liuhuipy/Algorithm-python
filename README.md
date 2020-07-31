@@ -83,6 +83,12 @@
 * [实现Trie（前缀树](tree/implement-trie-prefix-tree.py)(LeetCode 208)
 * [键值映射](tree/map-sum-pairs.py)(LeetCode 677)
 
+## 图
+* TODO
+
+## 位运算
+* TODO
+
 ## 双指针
 * [两数之和II-输入有序数组](double_pointer/two-sum-ii-input-array-is-sorted.py)(Leetcode 167)
 * [平方数之和](double_pointer/sum-of-square-numbers.py)(LeetCode 633)
@@ -94,6 +100,7 @@
 
 ## 排序
 * [数组中的第K个最大元素](sorting/kth-largest-element-in-an-array.py)(LeetCode 215)
+* TODO
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
