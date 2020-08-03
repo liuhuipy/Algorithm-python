@@ -105,6 +105,7 @@
 ## 贪心
 * [分发饼干](greedy/assign-cookies.py)(LeetCode 455)
 * [无重叠区间](greedy/non-overlapping-intervals.py)(LeetCode 435)
+* [用最少数量的箭引爆气球](greedy/minimum-number-of-arrows-to-burst-balloons.py)(LeetCode 452)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
