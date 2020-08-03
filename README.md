@@ -109,6 +109,7 @@
 * [根据身高重建队列](greedy/queue-reconstruction-by-height.py)(LeetCode 406)
 * [买卖股票的最佳时机](greedy/best-time-to-buy-and-sell-stock.py)(LeetCode 121)
 * [买卖股票的最佳时机II](greedy/best-time-to-buy-and-sell-stock-ii.py)(LeetCode 122)
+* [种花问题](greedy/can-place-flowers.py)(LeetCode 605)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
