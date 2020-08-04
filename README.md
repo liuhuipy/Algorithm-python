@@ -111,6 +111,7 @@
 * [买卖股票的最佳时机II](greedy/best-time-to-buy-and-sell-stock-ii.py)(LeetCode 122)
 * [种花问题](greedy/can-place-flowers.py)(LeetCode 605)
 * [判断子序列](greedy/is-subsequence.py)(LeetCode 392)
+* [非递减数列](greedy/non-decreasing-array.py)(LeetCode 665)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
