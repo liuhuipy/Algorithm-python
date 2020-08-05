@@ -120,6 +120,7 @@
 * [寻找比目标字母大的最小字母](search/find-smallest-letter-greater-than-target.py)(LeetCode 744)
 * [有序数组中的单一元素](search/single-element-in-a-sorted-array.py)(LeetCode 540)
 * [第一个错误的版本](search/first-bad-version.py)(LeetCode 278)
+* [寻找旋转排序数组中的最小值](search/find-minimum-in-rotated-sorted-array.py)(LeetCode 153)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
