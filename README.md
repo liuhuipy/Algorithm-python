@@ -119,6 +119,7 @@
 * [x的平方根](search/sqrtx.py)
 * [寻找比目标字母大的最小字母](search/find-smallest-letter-greater-than-target.py)(LeetCode 744)
 * [有序数组中的单一元素](search/single-element-in-a-sorted-array.py)(LeetCode 540)
+* [第一个错误的版本](search/first-bad-version.py)(LeetCode 278)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
