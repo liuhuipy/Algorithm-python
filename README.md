@@ -115,5 +115,8 @@
 * [最大子序和](greedy/maximum-subarray.py)(LeetCode 53)
 * [划分字母区间](greedy/partition-labels.py)(LeetCode 763)
 
+## 二分查找
+* [x的平方根](search/sqrtx.py)
+
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
