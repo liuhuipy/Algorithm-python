@@ -121,6 +121,7 @@
 * [有序数组中的单一元素](search/single-element-in-a-sorted-array.py)(LeetCode 540)
 * [第一个错误的版本](search/first-bad-version.py)(LeetCode 278)
 * [寻找旋转排序数组中的最小值](search/find-minimum-in-rotated-sorted-array.py)(LeetCode 153)
+* [在排序数组中查找元素的第一个和最后一个位置](search/find-first-and-last-position-of-element-in-sorted-array.py)(LeetCode 34)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
