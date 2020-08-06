@@ -123,5 +123,10 @@
 * [寻找旋转排序数组中的最小值](search/find-minimum-in-rotated-sorted-array.py)(LeetCode 153)
 * [在排序数组中查找元素的第一个和最后一个位置](search/find-first-and-last-position-of-element-in-sorted-array.py)(LeetCode 34)
 
+## 分治
+* [为运算表达式设计优先级](divide_conquer/different-ways-to-add-parentheses.py)(LeetCode 241)
+* [不同的二叉搜索树 II](divide_conquer/unique-binary-search-trees-ii.py)(LeetCode 95)
+
+
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
