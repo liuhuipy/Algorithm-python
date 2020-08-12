@@ -127,6 +127,9 @@
 * [为运算表达式设计优先级](divide_conquer/different-ways-to-add-parentheses.py)(LeetCode 241)
 * [不同的二叉搜索树 II](divide_conquer/unique-binary-search-trees-ii.py)(LeetCode 95)
 
+## 搜索
+* [二进制矩阵中的最短路径](search/shortest-path-in-binary-matrix.py)(LeetCode 1091)
+
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
