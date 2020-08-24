@@ -30,9 +30,9 @@ from typing import List
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         def area_dfs(col, row, area: int) -> int:
-            if col >= len_row or col < 0 or row < 0 or row >= len_col or (col, row) in visited or grid[col][row] != 1:
+            if col >= len_row or col < 0 or row < 0 or row >= len_col or grid[col][row] != 1:
                 return 0
-            visited.add((col, row))
+            grid[col][row] = 0
             for c_x, c_y in term:
                 area += area_dfs(col + c_x, row + c_y, 1)
             return area
@@ -41,24 +41,23 @@ class Solution:
         if not len_row or not grid[0]:
             return 0
         len_col = len(grid[0])
-        visited, res, temp = set(), 0, 0
+        res, temp = 0, 0
         term = ((0, -1), (0, 1), (1, 0), (-1, 0))
         for i in range(len_row):
             for j in range(len_col):
-                if (i, j) not in visited and grid[i][j] == 1:
-                    ans = area_dfs(i, j, 1)
-                    res = max(res, ans)
+                ans = area_dfs(i, j, 1)
+                res = max(res, ans)
         return res
 
 
-if __name__ == '__main__':
-    print(Solution().maxAreaOfIsland([[0,0,1,0,0,0,0,1,0,0,0,0,0],
-                                      [0,0,0,0,0,0,0,1,1,1,0,0,0],
-                                      [0,1,1,0,1,0,0,0,0,0,0,0,0],
-                                      [0,1,0,0,1,1,0,0,1,0,1,0,0],
-                                      [0,1,0,0,1,1,0,0,1,1,1,0,0],
-                                      [0,0,0,0,0,0,0,0,0,0,1,0,0],
-                                      [0,0,0,0,0,0,0,1,1,1,0,0,0],
-                                      [0,0,0,0,0,0,0,1,1,0,0,0,0]]
-                                     ))
+# if __name__ == '__main__':
+#     print(Solution().maxAreaOfIsland([[0,0,1,0,0,0,0,1,0,0,0,0,0],
+#                                       [0,0,0,0,0,0,0,1,1,1,0,0,0],
+#                                       [0,1,1,0,1,0,0,0,0,0,0,0,0],
+#                                       [0,1,0,0,1,1,0,0,1,0,1,0,0],
+#                                       [0,1,0,0,1,1,0,0,1,1,1,0,0],
+#                                       [0,0,0,0,0,0,0,0,0,0,1,0,0],
+#                                       [0,0,0,0,0,0,0,1,1,1,0,0,0],
+#                                       [0,0,0,0,0,0,0,1,1,0,0,0,0]]
+#                                      ))
 
