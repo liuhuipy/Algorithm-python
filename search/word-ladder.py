@@ -27,6 +27,8 @@
 
 方法1：
     广度优先搜索。
+    时间复杂度为：O(M * N)，其中M是单词的长度，N是单词表中单词的总数。
+    空间复杂度为：O(M * N)，要在temp_dict字典中记录每个单词的M个通用状态。访问数组的大小是N。
 方法2：
     双向广度优先搜索。
 """
@@ -57,6 +59,45 @@ class Solution:
                 temp_dict[temp_word] = []
         return 0
 
+    def ladderLength2(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+        def visit_word(begin: bool) -> int:
+            current_word, level = begin_queue.pop(0) if begin else end_queue.pop(0)
+            for i in range(temp_len):
+                temp_word = current_word[:i] + "*" + current_word[i + 1:]
+                for v_word in temp_dict[temp_word]:
+                    if begin:
+                        if v_word in end_visited:
+                            return level + end_visited[v_word]
+                        if v_word not in begin_visited:
+                            begin_visited[v_word] = level + 1
+                            begin_queue.append((v_word, level + 1))
+                    else:
+                        if v_word in begin_visited:
+                            return level + begin_visited[v_word]
+                        if v_word not in end_visited:
+                            end_visited[v_word] = level + 1
+                            end_queue.append((v_word, level + 1))
+            return -1
+
+        temp_len = len(beginWord)
+        temp_dict = defaultdict(list)
+        for word in wordList:
+            for i in range(temp_len):
+                temp_dict[word[:i] + "*" + word[i + 1:]].append(word)
+
+        begin_queue = [(beginWord, 1)]
+        end_queue = [(endWord, 1)]
+        begin_visited = {beginWord: 1}
+        end_visited = {endWord: 1}
+        while begin_queue and end_queue:
+            ans = visit_word(begin=True)
+            if ans > 0:
+                return ans
+            ans = visit_word(begin=False)
+            if ans > 0:
+                return ans
+        return 0
+
 
 # if __name__ == '__main__':
-#     print(Solution().ladderLength("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]))
+#     print(Solution().ladderLength2("hit", "cog", ["hot","dot","dog","lot","log"]))
