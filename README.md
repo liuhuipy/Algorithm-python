@@ -130,7 +130,7 @@
 ## 搜索
 * [二进制矩阵中的最短路径](search/shortest-path-in-binary-matrix.py)(LeetCode 1091)
 * [完全平方数](search/perfect-squares.py)(LeetCode 279)
-* []
+* [单词接龙](search/word-ladder.py)(LeetCode 127)
 
 
 ## 动态规划
