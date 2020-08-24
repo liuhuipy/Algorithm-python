@@ -131,7 +131,7 @@
 * [二进制矩阵中的最短路径](search/shortest-path-in-binary-matrix.py)(LeetCode 1091)
 * [完全平方数](search/perfect-squares.py)(LeetCode 279)
 * [单词接龙](search/word-ladder.py)(LeetCode 127)
-
+* [岛屿的最大面积](search/max-area-of-island.py)(LeetCode 695)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
