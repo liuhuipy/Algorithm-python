@@ -134,6 +134,7 @@
 * [岛屿的最大面积](search/max-area-of-island.py)(LeetCode 695)
 * [岛屿数量](search/number-of-islands.py)(LeetCode 200)
 * [朋友圈](search/friend-circles.py)(LeetCode 547)
+* [被围绕的区域](search/surrounded-regions.py)(LeetCode 130)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
