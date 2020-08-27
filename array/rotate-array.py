@@ -1,39 +1,41 @@
 """
-给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。
-示例：
-    输入：[1,2,3,4,5,6,7] 和 k = 3
-    输出：[5,6,7,1,2,3,4]
-说明：
-    尽量想出更多的解决方案，至少有三种不同的方法可以解决这个问题。
-    要求空间复杂度为O(1)的原地算法。
+旋转数组：
+    给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。
+
+示例 1:
+    输入: [1,2,3,4,5,6,7] 和 k = 3
+    输出: [5,6,7,1,2,3,4]
+解释:
+    向右旋转 1 步: [7,1,2,3,4,5,6]
+    向右旋转 2 步: [6,7,1,2,3,4,5]
+    向右旋转 3 步: [5,6,7,1,2,3,4]
+示例 2:
+    输入: [-1,-100,3,99] 和 k = 2
+    输出: [3,99,-1,-100]
+解释:
+    向右旋转 1 步: [99,-1,-100,3]
+    向右旋转 2 步: [3,99,-1,-100]
+说明:
+    尽可能想出更多的解决方案，至少有三种不同的方法可以解决这个问题。
+    要求使用空间复杂度为 O(1) 的 原地 算法。
+
+方法1：
+    使用中间数组存放移动后的值。
+    时间复杂度为O(n)。
+    空间复杂度为O(n)。
 """
+from typing import List
 
 
 class Solution:
-
-    def rotate(self, nums: list, k: int) -> None:
-        pass
-
-    def rotate1(self, nums: list, k: int) -> None:
+    def rotate(self, nums: List[int], k: int) -> None:
         """
-        暴力求解：
-            时间复杂度：O(n * k)
-            空间复杂度：O(1)
+        Do not return anything, modify nums in-place instead.
         """
-        if not nums:
-            return
         len_nums = len(nums)
-        for _ in range(k):
-            last_num = nums[len_nums - 1]
-            for i in range(len_nums - 1, 0, -1):
-                nums[i] = nums[i - 1]
-            nums[0] = last_num
-
-
-# if __name__ == '__main__':
-#     nums = [1, 2, 3, 4, 5, 6, 7]
-#     k = 3
-#     solution = Solution()
-#     solution.rotate(nums, k)
-#     print(nums)
+        temp_arr = [0] * len_nums
+        for i in range(len_nums):
+            temp_arr[(i + k) % len_nums] = nums[i]
+        for i in range(len_nums):
+            nums[i] = temp_arr[i]
 
