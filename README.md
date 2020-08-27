@@ -140,3 +140,6 @@
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
+
+## 数学
+* [1～n整数中1出现的次数](剑指offer/1-n.py)
