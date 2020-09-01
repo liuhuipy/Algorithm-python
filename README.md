@@ -138,6 +138,7 @@
 * [太平洋大西洋水流问题](search/pacific-atlantic-water-flow.py)(LeetCode 417)
 * [电话号码的字母组合](search/letter-combinations-of-a-phone-number.py)(LeetCode 17)
 * [复原IP地址](search/restore-ip-addresses.py)(LeetCode 93)
+* [单词搜索](search/word-search.py)(LeetCode 79)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
