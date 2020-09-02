@@ -139,6 +139,7 @@
 * [电话号码的字母组合](search/letter-combinations-of-a-phone-number.py)(LeetCode 17)
 * [复原IP地址](search/restore-ip-addresses.py)(LeetCode 93)
 * [单词搜索](search/word-search.py)(LeetCode 79)
+* [二叉树的所有路径](search/binary-tree-paths.py)(LeetCode 257)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
