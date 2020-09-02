@@ -144,6 +144,7 @@
 * [全排列II](search/permutation-ii.py)(LeetCode 47)
 * [组合](search/combinations.py)(LeetCode 77)
 * [组合总和](search/combination-sum.py)(LeetCode 39)
+* [组合总和II](search/combination-sum-ii.py)(LeetCode 40)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
