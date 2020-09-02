@@ -142,6 +142,7 @@
 * [二叉树的所有路径](search/binary-tree-paths.py)(LeetCode 257)
 * [全排列](search/permutations.py)(LeetCode 46)
 * [全排列II](search/permutation-ii.py)(LeetCode 47)
+* [组合](search/combinations.py)(LeetCode 77)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
