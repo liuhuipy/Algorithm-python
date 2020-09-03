@@ -147,6 +147,7 @@
 * [组合总和II](search/combination-sum-ii.py)(LeetCode 40)
 * [组合总和III](search/combination-sum-iii.py)(LeetCode 216)
 * [子集](search/subsets.py)(LeetCode 78)
+* [子集II](search/subsets-ii.py)(LeetCode 90)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
