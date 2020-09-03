@@ -21,27 +21,29 @@
         [1,2,2],
         [5]
     ]
+
+方法：
+    dfs（回溯）
 """
 from typing import List
 
 
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        candidates.sort(reverse=True)
+        candidates.sort()
         len_candidates = len(candidates)
-        has_result = set()
+        res = []
 
         def dfs(index, path, les_target):
-            if les_target == 0:
-                if path not in has_result:
-                    has_result.add(path)
+            if not les_target:
+                res.append(path)
                 return
-            if index == len_candidates:
-                return
-            for i in range(index + 1, len_candidates):
-                if candidates[i] <= les_target:
-                    dfs(i, path + (candidates[i], ), les_target - candidates[i])
+            for i in range(index, len_candidates):
+                if i > index and candidates[i] == candidates[i - 1]:
+                    continue
 
-        dfs(-1, (), target)
-        res = [list(result) for result in has_result]
+                if candidates[i] > les_target:
+                    break
+                dfs(i + 1, path + [candidates[i]], les_target - candidates[i])
+        dfs(0, [], target)
         return res
