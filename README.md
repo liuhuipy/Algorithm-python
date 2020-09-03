@@ -148,6 +148,7 @@
 * [组合总和III](search/combination-sum-iii.py)(LeetCode 216)
 * [子集](search/subsets.py)(LeetCode 78)
 * [子集II](search/subsets-ii.py)(LeetCode 90)
+* [分割回文串](search/palindrome-partitioning.py)(LeetCode 131)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
