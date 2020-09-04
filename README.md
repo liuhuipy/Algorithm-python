@@ -149,6 +149,7 @@
 * [子集](search/subsets.py)(LeetCode 78)
 * [子集II](search/subsets-ii.py)(LeetCode 90)
 * [分割回文串](search/palindrome-partitioning.py)(LeetCode 131)
+* [解数独](search/sudoku-solver.py)(LeetCode 37)
 
 ## 动态规划
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
