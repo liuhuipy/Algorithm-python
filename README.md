@@ -157,6 +157,7 @@
 * [打家劫舍](dynamic_programming/house-robber.py)(LeetCode 198)
 * [打家劫舍II](dynamic_programming/house-robber-ii.py)(LeetCode 213)
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
+* [最小路径和](dynamic_programming/minimum-path-sum.py)(LeetCode 64))
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
