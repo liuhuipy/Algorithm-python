@@ -153,6 +153,7 @@
 * [N皇后](search/n-queens.py)(LeetCode 51)
 
 ## 动态规划
+* [爬楼梯](dynamic_programming/climbing-stairs.py)(LeetCode 70)
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
 
 ## 数学
