@@ -154,6 +154,7 @@
 
 ## 动态规划
 * [爬楼梯](dynamic_programming/climbing-stairs.py)(LeetCode 70)
+* [打家劫舍](dynamic_programming/house-robber.py)(LeetCode 198)
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
 
 ## 数学
