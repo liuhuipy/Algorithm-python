@@ -10,6 +10,9 @@
     输入: n = 13
     输出: 2
     解释: 13 = 4 + 9.
+
+方法：
+    动态规划
 """
 
 
@@ -38,5 +41,4 @@ class Solution:
             else:
                 r = mid
         return l - 1 if x >= 2 else x
-
 
