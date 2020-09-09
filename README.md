@@ -162,6 +162,7 @@
 * [区域和检索-数组不可变](dynamic_programming/range-sum-query-immutable.py)(LeetCode 303)
 * [等差数列划分](dynamic_programming/arithmetic-slices.py)(LeetCode 413)
 * [整数拆分](dynamic_programming/integer-break.py)(LeetCode 343)
+* [解码方法](dynamic_programming/decode-ways.py)(LeetCode 91)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
