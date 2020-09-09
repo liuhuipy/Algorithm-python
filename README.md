@@ -160,6 +160,7 @@
 * [最小路径和](dynamic_programming/minimum-path-sum.py)(LeetCode 64))
 * [不同路径](dynamic_programming/unique-paths.py)(LeetCode 62)
 * [区域和检索-数组不可变](dynamic_programming/range-sum-query-immutable.py)(LeetCode 303)
+* [等差数列划分](dynamic_programming/arithmetic-slices.py)(LeetCode 413)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
