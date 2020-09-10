@@ -114,6 +114,7 @@
 * [非递减数列](greedy/non-decreasing-array.py)(LeetCode 665)
 * [最大子序和](greedy/maximum-subarray.py)(LeetCode 53)
 * [划分字母区间](greedy/partition-labels.py)(LeetCode 763)
+* [摆动序列](greedy/wiggle-subsequence.py)(LeetCode 376)
 
 ## 二分查找
 * [x的平方根](search/sqrtx.py)
