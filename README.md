@@ -166,6 +166,7 @@
 * [解码方法](dynamic_programming/decode-ways.py)(LeetCode 91)
 * [最长上升子序列](dynamic_programming/longest-increasing-subsequence.py)(LeetCode 300)
 * [最长数对链](dynamic_programming/maximum-length-of-pair-chain.py)(LeetCode 646)
+* [最长公共子序列](dynamic_programming/longest-common-subsequence.py)(LeetCode 1143)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
