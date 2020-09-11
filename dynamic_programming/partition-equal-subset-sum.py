@@ -34,17 +34,9 @@ class Solution:
             if temp_num == 0 or not dp[temp_num]:
                 return True
 
-            temp = []
-            for i in range(1, half_sum + 1):
-                if not dp[i] and i + num <= half_sum:
-                    temp.append(i + num)
-
-            for t in temp:
-                dp[t] = False
+            for i in range(half_sum, 0, -1):
+                if dp[i] and i > num:
+                    dp[i] = dp[i - num]
             dp[num] = False
+
         return False
-
-
-
-
-
