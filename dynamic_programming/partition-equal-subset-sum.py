@@ -34,8 +34,8 @@ class Solution:
             if temp_num == 0 or not dp[temp_num]:
                 return True
 
-            for i in range(half_sum, 0, -1):
-                if dp[i] and i > num:
+            for i in range(half_sum, num, -1):
+                if dp[i]:
                     dp[i] = dp[i - num]
             dp[num] = False
 
