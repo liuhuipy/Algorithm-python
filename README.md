@@ -170,6 +170,7 @@
 * [分割等和子集](dynamic_programming/partition-equal-subset-sum.py)(LeetCode 416)
 * [最长回文子序列](dynamic_programming/longest-palindromic-subsequence.py)(LeetCode 516)
 * [粉刷房子](dynamic_programming/paint-house.py)(LeetCode 256)
+* [粉刷房子II](dynamic_programming/paint-house-ii.py)(LeetCode 265)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
