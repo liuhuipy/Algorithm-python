@@ -168,6 +168,7 @@
 * [最长数对链](dynamic_programming/maximum-length-of-pair-chain.py)(LeetCode 646)
 * [最长公共子序列](dynamic_programming/longest-common-subsequence.py)(LeetCode 1143)
 * [分割等和子集](dynamic_programming/partition-equal-subset-sum.py)(LeetCode 416)
+* [目标和](dynamic_programming/target-sum.py)(LeetCode 494)
 * [最长回文子序列](dynamic_programming/longest-palindromic-subsequence.py)(LeetCode 516)
 * [粉刷房子](dynamic_programming/paint-house.py)(LeetCode 256)
 * [粉刷房子II](dynamic_programming/paint-house-ii.py)(LeetCode 265)
