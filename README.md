@@ -182,6 +182,7 @@
 * [两个字符串的删除操作](dynamic_programming/delete-operation-for-two-strings.py)(LeetCode 583)
 * [递增子序列](dynamic_programming/increasing-subsequences.py)(LeetCode 491)
 * [一和零](dynamic_programming/ones-and-zeroes.py)(LeetCode 491)
+* [零钱兑换](dynamic_programming/coin-change.py)(LeetCode 322)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
