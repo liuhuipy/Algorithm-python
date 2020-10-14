@@ -180,6 +180,7 @@
 * [最佳买卖股票时机含冷冻期](dynamic_programming/best-time-to-buy-and-sell-stock-with-cooldown.py)(LeetCode 309)
 * [买卖股票的最佳时机含手续费](dynamic_programming/best-time-to-buy-and-sell-stock-with-transaction-fee.py)(LeetCode 714)
 * [两个字符串的删除操作](dynamic_programming/delete-operation-for-two-strings.py)(LeetCode 583)
+* [递增子序列](dynamic_programming/increasing-subsequences.py)(LeetCode 491)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
