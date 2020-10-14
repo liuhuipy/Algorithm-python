@@ -170,6 +170,8 @@
 * [最长公共子序列](dynamic_programming/longest-common-subsequence.py)(LeetCode 1143)
 * [分割等和子集](dynamic_programming/partition-equal-subset-sum.py)(LeetCode 416)
 * [目标和](dynamic_programming/target-sum.py)(LeetCode 494)
+* [一和零](dynamic_programming/ones-and-zeroes.py)(LeetCode 491)
+* [零钱兑换](dynamic_programming/coin-change.py)(LeetCode 322)
 * [最长回文子序列](dynamic_programming/longest-palindromic-subsequence.py)(LeetCode 516)
 * [粉刷房子](dynamic_programming/paint-house.py)(LeetCode 256)
 * [粉刷房子II](dynamic_programming/paint-house-ii.py)(LeetCode 265)
@@ -181,8 +183,6 @@
 * [买卖股票的最佳时机含手续费](dynamic_programming/best-time-to-buy-and-sell-stock-with-transaction-fee.py)(LeetCode 714)
 * [两个字符串的删除操作](dynamic_programming/delete-operation-for-two-strings.py)(LeetCode 583)
 * [递增子序列](dynamic_programming/increasing-subsequences.py)(LeetCode 491)
-* [一和零](dynamic_programming/ones-and-zeroes.py)(LeetCode 491)
-* [零钱兑换](dynamic_programming/coin-change.py)(LeetCode 322)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
