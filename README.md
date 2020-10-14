@@ -26,6 +26,7 @@
 * [回文链表](array/palindrome-linked-list.py)(LeetCode 234)
 * [分隔链表](array/split-linked-list-in-parts.py)(LeetCode 725)
 * [链表元素按奇偶聚集](array/odd-even-linked-list.py)(LeetCode 328)
+* [最长连续递增序列](array/longest-continuous-increasing-subsequence.py)(LeetCode 674)
 
 ## 哈希表
 * [两数之和](hashmap/two-sum.py)(LeetCode 1)
