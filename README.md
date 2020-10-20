@@ -174,6 +174,7 @@
 * [零钱兑换](dynamic_programming/coin-change.py)(LeetCode 322)
 * [零钱兑换II](dynamic_programming/coin-change-2.py)(LeetCode 518)
 * [单词拆分](dynamic_programming/word-break.py)(LeetCode 139)
+* [组合总和IV](dynamic_programming/combination-sum-iv.py)(LeetCode 377)
 * [最长回文子序列](dynamic_programming/longest-palindromic-subsequence.py)(LeetCode 516)
 * [粉刷房子](dynamic_programming/paint-house.py)(LeetCode 256)
 * [粉刷房子II](dynamic_programming/paint-house-ii.py)(LeetCode 265)
