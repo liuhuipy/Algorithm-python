@@ -186,6 +186,7 @@
 * [买卖股票的最佳时机含手续费](dynamic_programming/best-time-to-buy-and-sell-stock-with-transaction-fee.py)(LeetCode 714)
 * [两个字符串的删除操作](dynamic_programming/delete-operation-for-two-strings.py)(LeetCode 583)
 * [递增子序列](dynamic_programming/increasing-subsequences.py)(LeetCode 491)
+* [只有两个键的键盘](dynamic_programming/2-keys-keyboard.py)(LeetCode 650)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
