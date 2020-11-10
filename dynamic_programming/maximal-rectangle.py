@@ -32,15 +32,18 @@ class Solution:
 
     @staticmethod
     def code_84(heights: List[int]):
+        heights.append(0)
+        n = len(heights)
         temp_stack = [-1]
-        max_area = 0
-        for i in range(len(heights)):
-            while temp_stack[-1] != -1 and heights[temp_stack[-1]] >= heights[i]:
-                max_area = max(max_area, heights[temp_stack.pop()] * (i - temp_stack[-1] - 1))
+        res = 0
+        for i in range(n):
+            while heights[temp_stack[-1]] > heights[i]:
+                h = heights[temp_stack.pop()]
+                w = i - temp_stack[-1] - 1
+                res = max(res, h * w)
             temp_stack.append(i)
-        while temp_stack[-1] != -1:
-            max_area = max(max_area, heights[temp_stack.pop()] * (len(heights) - temp_stack[-1] - 1))
-        return max_area
+        heights.pop()
+        return res
 
 
 if __name__ == '__main__':

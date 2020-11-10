@@ -17,22 +17,17 @@ from typing import List
 
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
+        heights.append(0)
         n = len(heights)
-        left, right = [0] * n, [0] * n
-        temp_stack = []
+        temp_stack = [-1]
+        res = 0
         for i in range(n):
-            while temp_stack and heights[temp_stack[-1]] >= heights[i]:
-                temp_stack.pop()
-            left[i] = temp_stack[-1] if temp_stack else -1
+            while heights[temp_stack[-1]] > heights[i]:
+                h = heights[temp_stack.pop()]
+                w = i - temp_stack[-1] - 1
+                res = max(res, h * w)
             temp_stack.append(i)
-        temp_stack = []
-        for i in range(n - 1, -1, -1):
-            while temp_stack and heights[temp_stack[-1]] >= heights[i]:
-                temp_stack.pop()
-            right[i] = temp_stack[-1] if temp_stack else n
-            temp_stack.append(i)
-
-        res = max((right[i] - left[i] - 1) * heights[i] for i in range(n)) if n > 0 else 0
+        heights.pop()
         return res
 
 
