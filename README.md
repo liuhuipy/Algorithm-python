@@ -189,6 +189,7 @@
 * [只有两个键的键盘](dynamic_programming/2-keys-keyboard.py)(LeetCode 650)
 * [编辑距离](dynamic_programming/edit-distance.py)(LeetCode 72)
 * [柱状图中最大的矩形](dynamic_programming/largest-rectangle-in-histogram.py)(LeetCode 84)
+* [最大矩形](dynamic_programming/maximal-rectangle.py)(LeetCode 85)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
