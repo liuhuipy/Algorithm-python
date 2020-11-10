@@ -27,6 +27,13 @@
 * [分隔链表](array/split-linked-list-in-parts.py)(LeetCode 725)
 * [链表元素按奇偶聚集](array/odd-even-linked-list.py)(LeetCode 328)
 * [最长连续递增序列](array/longest-continuous-increasing-subsequence.py)(LeetCode 674)
+* TODO
+* [LRU缓存机制](LeetCode 146)
+* [盛最多水的容器](LeetCode 11)
+* [两数之和](LeetCode 1)
+* [三数之和](LeetCode 15)
+* [环形链表II](LeetCode 142)
+
 
 ## 哈希表
 * [两数之和](hashmap/two-sum.py)(LeetCode 1)
@@ -41,6 +48,11 @@
 * [有效的括号](stack_queue/valid-parentheses.py)(LeetCode 22)
 * [每日温度](stack_queue/daily-temperatures.py)(LeetCode 739)
 * [下一个更大元素II](stack_queue/next-greater-element-ii.py)(LeetCode 503)
+* TODO
+* [滑动窗口最大值](LeetCode 239)
+* [设计循环双端队列](LeetCode 641)
+* [接雨水](LeetCode 42)
+* [前K个高频元素](LeetCode 347)
 
 ## 字符串
 * [有效的字母异位词](string/valid-anagram.py)(LeetCode 242)
@@ -49,6 +61,25 @@
 * [回文数](string/palindrome-number.py)(LeetCode 9)
 * [回文子串](string/palindromic-substrings.py)(LeetCode 647)
 * [计数二进制子串](string/count-binary-substrings.py)(LeetCode 696)
+* TODO
+* [字母异位词分组](LeetCode 49)
+* [转换成小写字母](LeetCode 709)
+* [最后一个单词的长度](LeetCode 58)
+* [宝石与石头](LeetCode 771)
+* [字符串中的第一个唯一字符](LeetCode 387)
+* [字符串转换整数 (atoi)](LeetCode 8)
+* [最长公共前缀](LeetCode 14)
+* [反转字符串](LeetCode 344)
+* [反转字符串II](LeetCode 541)
+* [翻转字符串里的单词](LeetCode 151)
+* [反转字符串中的单词 III](LeetCode 557)
+* [仅仅反转字母](LeetCode 917)
+* [字母异位词分组](LeetCode 49)
+* [找到字符串中所有字母异位词](LeetCode 438)
+* [验证回文串](LeetCode 125)
+* [验证回文字符串II](LeetCode 680)
+* [最长回文子串](LeetCode 5)
+* [通配符匹配](LeetCode 44)
 
 ## 树
 * [二叉树的最大深度](tree/maximum-depth-of-binary-tree.py)(LeetCode 104)
@@ -83,6 +114,19 @@
 * [二叉搜索树中的众树](tree/find-mode-in-binary-search-tree.py)(LeetCode 501)
 * [实现Trie（前缀树](tree/implement-trie-prefix-tree.py)(LeetCode 208)
 * [键值映射](tree/map-sum-pairs.py)(LeetCode 677)
+* TODO
+* [N叉树的后序遍历](LeetCode 590)
+* [N叉树的前序遍历](LeetCode 589)
+* [N叉树的层次遍历](LeetCode 429)
+* [验证二叉搜索树](LeetCode 98)
+* [二叉树的序列化与反序列化](LeetCode 297)
+* [从前序与中序遍历序列构造二叉树](LeetCode 105)
+* [二叉树的层次遍历](LeetCode 102)
+* [最小基因变化](LeetCode 433)
+* [在每个树行中找最大值](LeetCode 515)
+* [单词接龙II](LeetCode 126)
+* [扫雷游戏](LeetCode 529)
+* [单词搜索II](LeetCode 212)
 
 ## 图
 * TODO
@@ -116,6 +160,12 @@
 * [最大子序和](greedy/maximum-subarray.py)(LeetCode 53)
 * [划分字母区间](greedy/partition-labels.py)(LeetCode 763)
 * [摆动序列](greedy/wiggle-subsequence.py)(LeetCode 376)
+* TODO
+* [柠檬水找零](LeetCode 860)
+* [模拟行走机器人](LeetCode 874)
+* [跳跃游戏](LeetCode 55)
+* [跳跃游戏II](LeetCode 45)
+
 
 ## 二分查找
 * [x的平方根](search/sqrtx.py)
@@ -124,6 +174,11 @@
 * [第一个错误的版本](search/first-bad-version.py)(LeetCode 278)
 * [寻找旋转排序数组中的最小值](search/find-minimum-in-rotated-sorted-array.py)(LeetCode 153)
 * [在排序数组中查找元素的第一个和最后一个位置](search/find-first-and-last-position-of-element-in-sorted-array.py)(LeetCode 34)
+* TODO
+* [x的平方根](LeetCode 69)
+* [有效的完全平方数](LeetCode 367)
+* [搜索旋转排序数组](LeetCode 33)
+* [搜索二维矩阵](LeetCode 74)
 
 ## 分治
 * [为运算表达式设计优先级](divide_conquer/different-ways-to-add-parentheses.py)(LeetCode 241)
@@ -153,6 +208,17 @@
 * [分割回文串](search/palindrome-partitioning.py)(LeetCode 131)
 * [解数独](search/sudoku-solver.py)(LeetCode 37)
 * [N皇后](search/n-queens.py)(LeetCode 51)
+* TODO
+* [Pow(x, n)](LeetCode 50)
+* [多数元素](LeetCode 169)
+* [有效的数独](LeetCode 36)
+* [滑动谜题](LeetCode 773)
+* [位1的个数](LeetCode 191)
+* [2的幂](LeetCode 231)
+* [颠倒二进制位](LeetCode 190)
+* [N皇后II](LeetCode 52)
+* [比特位计数](LeetCode 338)
+
 
 ## 动态规划
 * [爬楼梯](dynamic_programming/climbing-stairs.py)(LeetCode 70)
@@ -190,6 +256,13 @@
 * [编辑距离](dynamic_programming/edit-distance.py)(LeetCode 72)
 * [柱状图中最大的矩形](dynamic_programming/largest-rectangle-in-histogram.py)(LeetCode 84)
 * [最大矩形](dynamic_programming/maximal-rectangle.py)(LeetCode 85)
+* TODO
+* [不同路径II](LeetCode 63)
+* [不同路径III](LeetCode 980)
+* [三角形最小路径和](LeetCode 120)
+* [乘积最大子数组](LeetCode 152)
+* [不同的子序列](LeetCode 115)
+* [赛车](LeetCode 818)
 
 ## 数学
 * [1～n整数中1出现的次数](剑指offer/1-n.py)
