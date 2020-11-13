@@ -47,9 +47,9 @@
 * [有效的括号](stack_queue/valid-parentheses.py)(LeetCode 22)
 * [每日温度](stack_queue/daily-temperatures.py)(LeetCode 739)
 * [下一个更大元素II](stack_queue/next-greater-element-ii.py)(LeetCode 503)
+* [设计循环双端队列](stack_queue/design-circular-deque.py)(LeetCode 641)
 * TODO
 * [滑动窗口最大值](LeetCode 239)
-* [设计循环双端队列](LeetCode 641)
 * [接雨水](LeetCode 42)
 * [前K个高频元素](LeetCode 347)
 
