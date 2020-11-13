@@ -27,8 +27,8 @@
 * [分隔链表](array/split-linked-list-in-parts.py)(LeetCode 725)
 * [链表元素按奇偶聚集](array/odd-even-linked-list.py)(LeetCode 328)
 * [最长连续递增序列](array/longest-continuous-increasing-subsequence.py)(LeetCode 674)
-* TODO
 * [LRU缓存机制](LeetCode 146)
+* TODO
 * [盛最多水的容器](LeetCode 11)
 * [两数之和](LeetCode 1)
 * [三数之和](LeetCode 15)
