@@ -29,8 +29,8 @@
 * [最长连续递增序列](array/longest-continuous-increasing-subsequence.py)(LeetCode 674)
 * [LRU缓存机制](array/lru-cache.py)(LeetCode 146)
 * [盛最多水的容器](array/container-with-most-water.py)(LeetCode 11)
+* [两数之和](array/two-sum.py)(LeetCode 1)
 * TODO
-* [两数之和](LeetCode 1)
 * [三数之和](LeetCode 15)
 * [环形链表II](LeetCode 142)
 
