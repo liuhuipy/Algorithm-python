@@ -256,12 +256,12 @@
 * [柱状图中最大的矩形](dynamic_programming/largest-rectangle-in-histogram.py)(LeetCode 84)
 * [最大矩形](dynamic_programming/maximal-rectangle.py)(LeetCode 85)
 * [连续数组](dynamic_programming/contiguous-array.py)(LeetCode 525)
+* [和为K的子数组](dynamic_programming/subarray-sum-equals-k.py)(LeetCode 560)
 * TODO
 * [最小花费爬楼梯](LeetCode 746)
 * [打家劫舍III](LeetCode 337)
 * [Domino and Tromino Tiling](LeetCode 790)
 * [二维区域和检索-矩阵不可变](LeetCode 304)
-* [和为K的子数组](LeetCode 560)
 * [除自身以外数组的乘积](LeetCode 238)
 * [寻找数组的中心索引](LeetCode 724)
 * [找两个和为目标值且不重叠的子数组](LeetCode 1477)
