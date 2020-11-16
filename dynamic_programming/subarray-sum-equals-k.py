@@ -20,8 +20,7 @@ class Solution:
             count += nums[i]
             if (count - k) in temp_map:
                 res += temp_map[count - k]
-            temp_map.setdefault(count, 0)
-            temp_map[count] += 1
+            temp_map[count] = temp_map.get(count, 0) + 1
         return res
 
 
