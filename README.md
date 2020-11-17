@@ -224,6 +224,7 @@
 * [打家劫舍](dynamic_programming/house-robber.py)(LeetCode 198)
 * [打家劫舍II](dynamic_programming/house-robber-ii.py)(LeetCode 213)
 * [打家劫舍III](tree/house-robber-iii.py)(LeetCode 687)
+* [打家劫舍III](dynamic_programming/house-robber-iii.py)(LeetCode 337)
 * [最小路径和](dynamic_programming/minimum-path-sum.py)(LeetCode 64))
 * [不同路径](dynamic_programming/unique-paths.py)(LeetCode 62)
 * [区域和检索-数组不可变](dynamic_programming/range-sum-query-immutable.py)(LeetCode 303)
@@ -261,7 +262,6 @@
 * [寻找数组的中心索引](dynamic_programming/find-pivot-index.py)(LeetCode 724)
 * TODO
 
-* [打家劫舍III](LeetCode 337)
 * [Domino and Tromino Tiling](LeetCode 790)
 * [二维区域和检索-矩阵不可变](LeetCode 304)
 * [除自身以外数组的乘积](LeetCode 238)
