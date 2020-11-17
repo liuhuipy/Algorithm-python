@@ -260,9 +260,10 @@
 * [和为K的子数组](dynamic_programming/subarray-sum-equals-k.py)(LeetCode 560)
 * [最小花费爬楼梯](dynamic_programming/min-cost-climbing-stairs.py)(LeetCode 746)
 * [寻找数组的中心索引](dynamic_programming/find-pivot-index.py)(LeetCode 724)
+* [多米诺和托米诺平铺](dynamic_programming/domino-and-tromino-tiling.py)(LeetCode 790)
 * TODO
 
-* [Domino and Tromino Tiling](LeetCode 790)
+
 * [二维区域和检索-矩阵不可变](LeetCode 304)
 * [除自身以外数组的乘积](LeetCode 238)
 * [找两个和为目标值且不重叠的子数组](LeetCode 1477)
