@@ -264,8 +264,9 @@
 * [二维区域和检索-矩阵不可变](dynamic_programming/range-sum-query-2d-immutable.py)(LeetCode 304)
 * [除自身以外数组的乘积](dynamic_programming/product-of-array-except-self.py)(LeetCode 238)
 * [找两个和为目标值且不重叠的子数组](dynamic_programming/find-two-non-overlapping-sub-arrays-each-with-target-sum.py)(LeetCode 1477)
+* [乘积小于K的子数组](dynamic_programming/subarray-product-less-than-k.py)(LeetCode 713)
 * TODO
-* [乘积小于K的子数组](LeetCode 713)
+
 * [最后K个数的乘积](LeetCode 1352)
 
 * [序列递增的最小交换次数](LeetCode 801)
