@@ -15,8 +15,10 @@
     /  \
    15   7
 
-方法：
+方法1：
     dfs
+方法2：TODO
+    bfs
 """
 from typing import List
 
@@ -31,21 +33,25 @@ class TreeNode:
 
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
-        if not preorder or not inorder:
-            return None
-        if len(preorder) == len(inorder) == 1:
-            return TreeNode(preorder[0])
-        in_start = 0
-        while inorder[in_start] != preorder[0]:
-            in_start += 1
-        node = TreeNode(preorder[0])
-        node.left = self.buildTree(preorder[1: in_start + 1], inorder[:in_start])
-        node.right = self.buildTree(preorder[in_start + 1:], inorder[in_start + 1:])
-        return node
+        n = len(preorder)
+        temp_map = {num: i for i, num in enumerate(inorder)}
+
+        def dfs(pre_start: int, pre_end: int, in_start: int, in_end: int) -> TreeNode:
+            if pre_start > pre_end:
+                return None
+            pre_root_num = preorder[pre_start]
+            in_root_index = temp_map[pre_root_num]
+            move_size = in_root_index - in_start
+            node = TreeNode(pre_root_num)
+            node.left = dfs(pre_start + 1, pre_start + move_size, in_start, in_root_index - 1)
+            node.right = dfs(pre_start + move_size + 1, pre_end, in_root_index + 1, in_end)
+            return node
+
+        return dfs(0, n - 1, 0, n - 1)
 
 
 if __name__ == '__main__':
-    root = Solution().buildTree([1, 2], [1,2])
+    root = Solution().buildTree([1, 2, 3], [3, 2, 1])
 
     def dfs(node: TreeNode):
         if not node:
