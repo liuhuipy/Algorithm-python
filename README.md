@@ -115,9 +115,10 @@
 * [实现Trie（前缀树](tree/implement-trie-prefix-tree.py)(LeetCode 208)
 * [键值映射](tree/map-sum-pairs.py)(LeetCode 677)
 * [N叉树的后序遍历](tree/n-ary-tree-postorder-traversal.py)(LeetCode 590)
+* [N叉树的前序遍历](tree/n-ary-tree-preorder-traversal.py)(LeetCode 589)
 * [从前序与中序遍历序列构造二叉树](tree/construct-binary-tree-from-preorder-and-inorder-traversal.py)(LeetCode 105)
 * TODO
-* [N叉树的前序遍历](LeetCode 589)
+
 * [N叉树的层次遍历](LeetCode 429)
 * [二叉树的序列化与反序列化](LeetCode 297)
 * [二叉树的层次遍历](LeetCode 102)
