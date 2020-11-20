@@ -118,11 +118,11 @@
 * [N叉树的后序遍历](tree/n-ary-tree-postorder-traversal.py)(LeetCode 590)
 * [N叉树的前序遍历](tree/n-ary-tree-preorder-traversal.py)(LeetCode 589)
 * [N叉树的层次遍历](tree/n-ary-tree-level-order-traversal.py)(LeetCode 429)
+* [最小基因变化](tree/minimum-genetic-mutation.py)(LeetCode 433)
 * [从前序与中序遍历序列构造二叉树](tree/construct-binary-tree-from-preorder-and-inorder-traversal.py)(LeetCode 105)
 * TODO
 
 * [二叉树的序列化与反序列化](LeetCode 297)
-* [最小基因变化](LeetCode 433)
 * [在每个树行中找最大值](LeetCode 515)
 * [单词接龙II](LeetCode 126)
 * [扫雷游戏](LeetCode 529)
