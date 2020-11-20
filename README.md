@@ -114,6 +114,7 @@
 * [二叉搜索树中的众树](tree/find-mode-in-binary-search-tree.py)(LeetCode 501)
 * [实现Trie（前缀树](tree/implement-trie-prefix-tree.py)(LeetCode 208)
 * [键值映射](tree/map-sum-pairs.py)(LeetCode 677)
+* [二叉树的层次遍历](tree/binary-tree-level-order-traversal.py)(LeetCode 102)
 * [N叉树的后序遍历](tree/n-ary-tree-postorder-traversal.py)(LeetCode 590)
 * [N叉树的前序遍历](tree/n-ary-tree-preorder-traversal.py)(LeetCode 589)
 * [N叉树的层次遍历](tree/n-ary-tree-level-order-traversal.py)(LeetCode 429)
@@ -121,7 +122,6 @@
 * TODO
 
 * [二叉树的序列化与反序列化](LeetCode 297)
-* [二叉树的层次遍历](LeetCode 102)
 * [最小基因变化](LeetCode 433)
 * [在每个树行中找最大值](LeetCode 515)
 * [单词接龙II](LeetCode 126)
