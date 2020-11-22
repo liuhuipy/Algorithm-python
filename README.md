@@ -48,10 +48,10 @@
 * [每日温度](stack_queue/daily-temperatures.py)(LeetCode 739)
 * [下一个更大元素II](stack_queue/next-greater-element-ii.py)(LeetCode 503)
 * [设计循环双端队列](stack_queue/design-circular-deque.py)(LeetCode 641)
+* [前K个高频元素](stack_queue/top-k-frequent-elements.py)(LeetCode 347)
 * TODO
 * [滑动窗口最大值](LeetCode 239)
 * [接雨水](LeetCode 42)
-* [前K个高频元素](LeetCode 347)
 
 ## 字符串
 * [有效的字母异位词](string/valid-anagram.py)(LeetCode 242)
@@ -60,6 +60,7 @@
 * [回文数](string/palindrome-number.py)(LeetCode 9)
 * [回文子串](string/palindromic-substrings.py)(LeetCode 647)
 * [计数二进制子串](string/count-binary-substrings.py)(LeetCode 696)
+* [实现strStr()](string/implement-strstr.py)(LeetCode 28)
 * TODO
 * [字母异位词分组](LeetCode 49)
 * [转换成小写字母](LeetCode 709)
