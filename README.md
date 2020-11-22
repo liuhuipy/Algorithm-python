@@ -61,9 +61,9 @@
 * [回文子串](string/palindromic-substrings.py)(LeetCode 647)
 * [计数二进制子串](string/count-binary-substrings.py)(LeetCode 696)
 * [实现strStr()](string/implement-strstr.py)(LeetCode 28)
+* [转换成小写字母](string/to-lower-case.py)(LeetCode 709)
 * TODO
 * [字母异位词分组](LeetCode 49)
-* [转换成小写字母](LeetCode 709)
 * [最后一个单词的长度](LeetCode 58)
 * [宝石与石头](LeetCode 771)
 * [字符串中的第一个唯一字符](LeetCode 387)
