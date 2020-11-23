@@ -61,8 +61,8 @@
 * [实现strStr()](string/implement-strstr.py)(LeetCode 28)
 * [转换成小写字母](string/to-lower-case.py)(LeetCode 709)
 * [最后一个单词的长度](string/length-of-last-word.py)(LeetCode 58)
+* [字母异位词分组](string/group-anagrams.py)(LeetCode 49)
 * TODO
-* [字母异位词分组](LeetCode 49)
 * [宝石与石头](LeetCode 771)
 * [字符串中的第一个唯一字符](LeetCode 387)
 * [字符串转换整数 (atoi)](LeetCode 8)
