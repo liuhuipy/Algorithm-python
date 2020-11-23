@@ -49,8 +49,7 @@
 * [设计循环双端队列](stack_queue/design-circular-deque.py)(LeetCode 641)
 * [前K个高频元素](stack_queue/top-k-frequent-elements.py)(LeetCode 347)
 * [滑动窗口最大值](stack_queue/sliding-window-maximum.py)(LeetCode 239)
-* TODO
-* [接雨水](LeetCode 42)
+* [接雨水](stack_queue/trapping-rain-water.py)(LeetCode 42)
 
 ## 字符串
 * [有效的字母异位词](string/valid-anagram.py)(LeetCode 242)
