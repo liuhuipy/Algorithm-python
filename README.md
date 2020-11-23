@@ -62,9 +62,9 @@
 * [转换成小写字母](string/to-lower-case.py)(LeetCode 709)
 * [最后一个单词的长度](string/length-of-last-word.py)(LeetCode 58)
 * [字母异位词分组](string/group-anagrams.py)(LeetCode 49)
-* [反转字符串中的单词 III](string/reverse-words-in-a-string.py)(LeetCode 557)
+* [反转字符串中的单词 III](string/reverse-words-in-a-string-iii.py)(LeetCode 557)
+* [翻转字符串里的单词](string/reverse-words-in-a-string.py)(LeetCode 151)
 * TODO
-* [翻转字符串里的单词](LeetCode 151)
 * [仅仅反转字母](LeetCode 917)
 * [字母异位词分组](LeetCode 49)
 * [找到字符串中所有字母异位词](LeetCode 438)
