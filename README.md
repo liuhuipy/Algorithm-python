@@ -112,12 +112,6 @@
 * [最小基因变化](tree/minimum-genetic-mutation.py)(LeetCode 433)
 * [在每个树行中找最大值](tree/find-largest-value-in-each-tree-row.py)(LeetCode 515)
 * [从前序与中序遍历序列构造二叉树](tree/construct-binary-tree-from-preorder-and-inorder-traversal.py)(LeetCode 105)
-* [扫雷游戏](tree/minesweeper.py)(LeetCode 529)
-* TODO
-
-* [二叉树的序列化与反序列化](LeetCode 297)
-* [单词接龙II](LeetCode 126)
-* [单词搜索II](LeetCode 212)
 
 ## 图
 * TODO
@@ -199,7 +193,12 @@
 * [分割回文串](search/palindrome-partitioning.py)(LeetCode 131)
 * [解数独](search/sudoku-solver.py)(LeetCode 37)
 * [N皇后](search/n-queens.py)(LeetCode 51)
+* [扫雷游戏](search/minesweeper.py)(LeetCode 529)
+* [单词接龙II](search/word-ladder-ii.py)(LeetCode 126)
+
 * TODO
+* [二叉树的序列化与反序列化](LeetCode 297)
+* [单词搜索II](LeetCode 212)
 * [Pow(x, n)](LeetCode 50)
 * [多数元素](LeetCode 169)
 * [有效的数独](LeetCode 36)
