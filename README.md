@@ -33,7 +33,6 @@
 * [三数之和](array/three-sum.py)(LeetCode 15)
 * [环形链表II](array/linked-list-cycle-ii.py)(LeetCode 142)
 
-
 ## 哈希表
 * [两数之和](hashmap/two-sum.py)(LeetCode 1)
 * [存在重复元素](hashmap/contains-duplicate.py)(LeetCode 217)
@@ -49,8 +48,8 @@
 * [下一个更大元素II](stack_queue/next-greater-element-ii.py)(LeetCode 503)
 * [设计循环双端队列](stack_queue/design-circular-deque.py)(LeetCode 641)
 * [前K个高频元素](stack_queue/top-k-frequent-elements.py)(LeetCode 347)
+* [滑动窗口最大值](stack_queue/sliding-window-maximum.py)(LeetCode 239)
 * TODO
-* [滑动窗口最大值](LeetCode 239)
 * [接雨水](LeetCode 42)
 
 ## 字符串
