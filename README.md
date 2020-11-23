@@ -64,10 +64,8 @@
 * [字母异位词分组](string/group-anagrams.py)(LeetCode 49)
 * [反转字符串中的单词 III](string/reverse-words-in-a-string-iii.py)(LeetCode 557)
 * [翻转字符串里的单词](string/reverse-words-in-a-string.py)(LeetCode 151)
+* [找到字符串中所有字母异位词](string/find-all-anagrams-in-a-string.py)(LeetCode 438)
 * TODO
-* [仅仅反转字母](LeetCode 917)
-* [字母异位词分组](LeetCode 49)
-* [找到字符串中所有字母异位词](LeetCode 438)
 * [验证回文串](LeetCode 125)
 * [验证回文字符串II](LeetCode 680)
 * [最长回文子串](LeetCode 5)
