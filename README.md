@@ -195,12 +195,11 @@
 * [N皇后](search/n-queens.py)(LeetCode 51)
 * [扫雷游戏](search/minesweeper.py)(LeetCode 529)
 * [单词接龙II](search/word-ladder-ii.py)(LeetCode 126)
+* [单词搜索II](search/word-search-ii.py)(LeetCode 212)
 
 * TODO
 * [二叉树的序列化与反序列化](LeetCode 297)
-* [单词搜索II](LeetCode 212)
 * [Pow(x, n)](LeetCode 50)
-* [多数元素](LeetCode 169)
 * [有效的数独](LeetCode 36)
 * [滑动谜题](LeetCode 773)
 * [位1的个数](LeetCode 191)
@@ -259,7 +258,6 @@
 * TODO
 
 * [最后K个数的乘积](LeetCode 1352)
-
 * [序列递增的最小交换次数](LeetCode 801)
 * [最长递增子序列的个数](LeetCode 673)
 * [不同的子序列I](LeetCode 115)
