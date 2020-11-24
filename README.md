@@ -196,10 +196,10 @@
 * [扫雷游戏](search/minesweeper.py)(LeetCode 529)
 * [单词接龙II](search/word-ladder-ii.py)(LeetCode 126)
 * [单词搜索II](search/word-search-ii.py)(LeetCode 212)
+* [Pow(x, n)](search/powx-n.py)(LeetCode 50)
 
 * TODO
 * [二叉树的序列化与反序列化](LeetCode 297)
-* [Pow(x, n)](LeetCode 50)
 * [有效的数独](LeetCode 36)
 * [滑动谜题](LeetCode 773)
 * [位1的个数](LeetCode 191)
