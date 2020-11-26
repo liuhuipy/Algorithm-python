@@ -24,26 +24,18 @@
 
 """
 from typing import List
-import collections
 
 
 class Solution:
     def longestArithSeqLength(self, A: List[int]) -> int:
         n = len(A)
-        if n < 2:
-            return 0
-        dic = collections.defaultdict(dict)
-        dic[0] = collections.defaultdict(int)
+        dp = [{} for _ in range(n)]
         res = 0
         for i in range(1, n):
-            dic[i] = collections.defaultdict(int)
             for j in range(i):
                 cha = A[i] - A[j]
-                if cha in dic[j]:
-                    dic[i][cha] = dic[j][cha] + 1
-                else:
-                    dic[i][cha] = 2
-                res = max(res, dic[i][cha])
+                dp[i][cha] = dp[j][cha] + 1 if cha in dp[j] else 2
+                res = max(res, dp[i][cha])
         return res
 
 
