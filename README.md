@@ -255,10 +255,10 @@
 * [除自身以外数组的乘积](dynamic_programming/product-of-array-except-self.py)(LeetCode 238)
 * [找两个和为目标值且不重叠的子数组](dynamic_programming/find-two-non-overlapping-sub-arrays-each-with-target-sum.py)(LeetCode 1477)
 * [乘积小于K的子数组](dynamic_programming/subarray-product-less-than-k.py)(LeetCode 713)
+* [序列递增的最小交换次数](dynamic_programming/minimum-swaps-to-make-sequences-increasing.py)(LeetCode 801)
 * TODO
 
 * [最后K个数的乘积](LeetCode 1352)
-* [序列递增的最小交换次数](LeetCode 801)
 * [最长递增子序列的个数](LeetCode 673)
 * [不同的子序列I](LeetCode 115)
 * [不同的子序列II](LeetCode 940)
