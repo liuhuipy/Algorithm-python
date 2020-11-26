@@ -256,13 +256,13 @@
 * [乘积小于K的子数组](dynamic_programming/subarray-product-less-than-k.py)(LeetCode 713)
 * [序列递增的最小交换次数](dynamic_programming/minimum-swaps-to-make-sequences-increasing.py)(LeetCode 801)
 * [最长递增子序列的个数](dynamic_programming/number-of-longest-increasing-subsequence.py)(LeetCode 673)
+* [最长等差数列](dynamic_programming/longest-arithmetic-subsequence.py)(LeetCode 1027)
 * TODO
 
 * [最后K个数的乘积](LeetCode 1352)
 * [不同的子序列I](LeetCode 115)
 * [不同的子序列II](LeetCode 940)
 * [带限制的子序列和](LeetCode 1425)
-* [最长等差数列](LeetCode 1027)
 * [组成字符串的最短路径](LeetCode 1055)
 * [最大的整除子集](LeetCode 368)
 * [解码方法II](LeetCode 639)
