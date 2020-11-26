@@ -145,8 +145,8 @@
 * [最大子序和](greedy/maximum-subarray.py)(LeetCode 53)
 * [划分字母区间](greedy/partition-labels.py)(LeetCode 763)
 * [摆动序列](greedy/wiggle-subsequence.py)(LeetCode 376)
+* [柠檬水找零](greedy/lemonade-change.py)(LeetCode 860)
 * TODO
-* [柠檬水找零](LeetCode 860)
 * [模拟行走机器人](LeetCode 874)
 * [跳跃游戏](LeetCode 55)
 * [跳跃游戏II](LeetCode 45)
