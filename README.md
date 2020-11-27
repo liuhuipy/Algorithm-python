@@ -149,6 +149,7 @@
 * TODO
 * [跳跃游戏](LeetCode 55)
 * [跳跃游戏II](LeetCode 45)
+* [完成所有任务的最少初始能量](greedy/minimum-initial-energy-to-finish-tasks.py)(LeetCode 1665)
 
 
 ## 二分查找
@@ -257,9 +258,9 @@
 * [序列递增的最小交换次数](dynamic_programming/minimum-swaps-to-make-sequences-increasing.py)(LeetCode 801)
 * [最长递增子序列的个数](dynamic_programming/number-of-longest-increasing-subsequence.py)(LeetCode 673)
 * [最长等差数列](dynamic_programming/longest-arithmetic-subsequence.py)(LeetCode 1027)
+* [最后K个数的乘积](dynamic_programming/product-of-the-last-k-numbers.py)(LeetCode 1352)
 * TODO
 
-* [最后K个数的乘积](LeetCode 1352)
 * [不同的子序列I](LeetCode 115)
 * [不同的子序列II](LeetCode 940)
 * [带限制的子序列和](LeetCode 1425)
