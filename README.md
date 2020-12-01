@@ -269,10 +269,10 @@
 * [最后一块石头的重量II](dynamic_programming/last-stone-weight-ii.py)(LeetCode 1049)
 * [三角形最小路径和](dynamic_programming/triangle.py)(LeetCode 120)
 * [乘积最大子数组](dynamic_programming/maximum-length-of-pair-chain.py)(LeetCode 152)
+* [掷骰子的N种方法](dynamic_programming/number-of-dice-rolls-with-target-sum.py)(LeetCode 1155)
 * TODO
 * [不同的二叉搜索树](LeetCode 96)
 * [不同的二叉搜索树](LeetCode 95)
-* [掷骰子的N种方法](LeetCode 1155)
 * [扔鸡蛋之殇](LeetCode 887)
 
 * [不同的子序列I](LeetCode 115)
