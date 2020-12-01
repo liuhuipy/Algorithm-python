@@ -267,8 +267,8 @@
 * [不同路径II](dynamic_programming/bu-tong-lu-jing-ii.py)(LeetCode 63)
 * [最大正方形](dynamic_programming/maximal-square.py)(LeetCode 221)
 * [最后一块石头的重量II](dynamic_programming/last-stone-weight-ii.py)(LeetCode 1049)
+* [三角形最小路径和](dynamic_programming/triangle.py)(LeetCode 120)
 * TODO
-* [三角形最小路径和](LeetCode 120)
 * [乘积最大子数组](LeetCode 152)
 * [不同的二叉搜索树](LeetCode 96)
 * [不同的二叉搜索树](LeetCode 95)
