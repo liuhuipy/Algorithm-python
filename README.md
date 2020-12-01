@@ -65,10 +65,8 @@
 * [反转字符串中的单词 III](string/reverse-words-in-a-string-iii.py)(LeetCode 557)
 * [翻转字符串里的单词](string/reverse-words-in-a-string.py)(LeetCode 151)
 * [找到字符串中所有字母异位词](string/find-all-anagrams-in-a-string.py)(LeetCode 438)
+* [最长回文子串](string/longest-palindromic-substring.py)(LeetCode 5)
 * TODO
-* [验证回文串](LeetCode 125)
-* [验证回文字符串II](LeetCode 680)
-* [最长回文子串](LeetCode 5)
 * [通配符匹配](LeetCode 44)
 
 ## 树
@@ -271,7 +269,6 @@
 * [乘积最大子数组](dynamic_programming/maximum-length-of-pair-chain.py)(LeetCode 152)
 * [掷骰子的N种方法](dynamic_programming/number-of-dice-rolls-with-target-sum.py)(LeetCode 1155)
 * TODO
-* [不同的二叉搜索树](LeetCode 96)
 * [不同的二叉搜索树](LeetCode 95)
 * [扔鸡蛋之殇](LeetCode 887)
 
