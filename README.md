@@ -110,6 +110,7 @@
 * [最小基因变化](tree/minimum-genetic-mutation.py)(LeetCode 433)
 * [在每个树行中找最大值](tree/find-largest-value-in-each-tree-row.py)(LeetCode 515)
 * [从前序与中序遍历序列构造二叉树](tree/construct-binary-tree-from-preorder-and-inorder-traversal.py)(LeetCode 105)
+* [删除二叉搜索树中的节点](tree/delete-node-in-a-bst.py)(LeetCode 450)
 
 ## 图
 * TODO
