@@ -273,12 +273,12 @@
 * [不同的子序列I](dynamic_programming/distinct-subsequences.py)(LeetCode 115)
 * [不同的子序列II](dynamic_programming/distinct-subsequences-ii.py)(LeetCode 940)
 * [不同的二叉搜索树](dynamic_programming/unique-binary-search-trees-ii.py)(LeetCode 95)
+* [最长有效括号](dynamic_programming/longest-valid-parentheses.py)(LeetCode 32)
 * TODO
 * [扔鸡蛋之殇](LeetCode 887)
 * [带限制的子序列和](LeetCode 1425)
 * [组成字符串的最短路径](LeetCode 1055)
 * [解码方法II](LeetCode 639)
-* [最长有效括号](LeetCode 32)
 * [分割回文串](LeetCode 132)
 * [最低加油次数](LeetCode 871)
 * [矩形区域不超过K的最大数值和](LeetCode 363)
