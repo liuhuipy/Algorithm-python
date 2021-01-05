@@ -52,6 +52,7 @@
 * [接雨水](stack_queue/trapping-rain-water.py)(LeetCode 42)
 
 ## 字符串
+* [较大分组的位置](string/positions-of-large-groups.py)(LeetCode 830)
 * [有效的字母异位词](string/valid-anagram.py)(LeetCode 242)
 * [最长回文串](string/longest-palindrome.py)(LeetCode 409)
 * [同构字符串](string/isomorphic-strings.py)(LeetCode 205)
