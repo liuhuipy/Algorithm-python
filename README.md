@@ -67,8 +67,7 @@
 * [翻转字符串里的单词](string/reverse-words-in-a-string.py)(LeetCode 151)
 * [找到字符串中所有字母异位词](string/find-all-anagrams-in-a-string.py)(LeetCode 438)
 * [最长回文子串](string/longest-palindromic-substring.py)(LeetCode 5)
-* TODO
-* [通配符匹配](LeetCode 44)
+* [通配符匹配](string/wildcard-matching.py)(LeetCode 44)
 
 ## 树
 * [二叉树的最大深度](tree/maximum-depth-of-binary-tree.py)(LeetCode 104)
