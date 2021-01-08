@@ -23,6 +23,10 @@
     使用中间数组存放移动后的值。
     时间复杂度为O(n)。
     空间复杂度为O(n)。
+方法2：
+    环状替换。
+    时间复杂度为O(n)。
+    空间复杂度为O(1)。
 """
 from typing import List
 
@@ -38,4 +42,19 @@ class Solution:
             temp_arr[(i + k) % len_nums] = nums[i]
         for i in range(len_nums):
             nums[i] = temp_arr[i]
+
+    def rotate2(self, nums: List[int], k: int) -> None:
+        if not nums or k < 1:
+            return
+        n = len(nums)
+        start = temp = i = 0
+        temp_val = nums[temp]
+        while i < n:
+            new_index = (temp + k) % n
+            temp, temp_val, nums[new_index] = new_index, nums[new_index], temp_val
+            if temp == start and i < n - 1:
+                start += 1
+                temp = start
+                temp_val = nums[temp]
+            i += 1
 
