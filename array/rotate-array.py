@@ -27,6 +27,10 @@
     环状替换。
     时间复杂度为O(n)。
     空间复杂度为O(1)。
+方法3：
+    数组翻转。
+    时间复杂度为O(n)。
+    空间复杂度为O(1)。
 """
 from typing import List
 
@@ -58,3 +62,15 @@ class Solution:
                 temp_val = nums[temp]
             i += 1
 
+    def rotate3(self, nums: List[int], k: int) -> None:
+        def swap(left, right):
+            while left < right:
+                nums[left], nums[right] = nums[right], nums[left]
+                left += 1
+                right -= 1
+
+        n = len(nums)
+        k %= n
+        swap(0, n - 1)
+        swap(0, k - 1)
+        swap(k, n - 1)
